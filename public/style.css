@@ -1,0 +1,19 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: 1;
+}
+.inputList {
+  color: #FFFAAA;
+  border: 1px solid black;
+  background-color: #AAAFFF;
+  padding: 20;
+  height: 20vh;
+  width: 50%;
+}

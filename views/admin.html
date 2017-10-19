@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lame auth test</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <h1 id="greeting">
+      Hi
+    </h1>
+    <h3>
+      This is the conductor's page. Here you can add, edit or remove messages to the orchestra.
+    </h3>
+    <div class="container">
+      <div class="inputList" id="general">General</div>
+      <div class="inputList" id="strings">Cuerdas</div>
+    </div>
+    <div class="container">
+      <div class="inputList" id="woodwinds">Maderas</div>
+      <div class="inputList" id="brasses">Metales</div>
+    </div>
+    <div class="container">
+      <div class="inputList" id="percussion">Percusion</div>
+      <div class="inputList" id="next">Proximo Ensayo/Concierto</div>
+    </div>
+    <p>
+      Each div should be a list, that has the option to either edit or remove an item.
+    </p>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/admin.js"></script>
+
+  </body>
+</html>
