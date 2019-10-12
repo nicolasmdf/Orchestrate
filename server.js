@@ -1,5 +1,4 @@
 // server.js
-// where your node app starts
 
 // init project
 var express = require('express');
@@ -24,7 +23,7 @@ db.once('open', function() {
     
   })
 });
-//need to start adding stuff to db :)
+//need to start adding stuff to db
 // http://expressjs.com/en/starter/static-files.html
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -48,7 +47,7 @@ app.post("/admin", function (req, res) {
 
 
 
-// listen for requests :)
+// listen for requests
 var listener = app.listen(process.env.PORT, function () {
   console.log('Your app is listening on port ' + listener.address().port);
 });
